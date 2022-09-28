@@ -1,0 +1,115 @@
+body {
+  margin: auto;
+  text-align: center;
+  font-family: 'Karla';
+  font-style: normal;
+  background: #1F2937;
+  line-height: 0;
+}
+
+hr {
+  padding-top: 20px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #2F3E53;
+  border-width: medium;
+}
+
+footer {
+  position: relative;
+  top: 23px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  font-size: 15px;
+}
+
+.fullBody {
+  position: relative;
+  top: 200px;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  letter-spacing: -1px;
+}
+
+.head1 {
+  font-weight: bolder;
+  color: white;
+  font-size: 50px;
+}
+
+.head2 {
+  font-weight: bolder;
+  color: #4ADF86;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.supp-text {
+  color: white;
+  padding-top: 30px;
+  font-size: 20px;
+  padding-bottom: 35px;
+
+}
+
+  .generate {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background:#10B981;
+  border-radius: 06px;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+  color: #fbfbfb;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  }
+  .generate > div {
+    color: #999;
+  font-size: 10px;
+  font-family: 'Inter';
+  font-weight: 500px;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+
+  }
+  .generate > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static;
+  }
+  .generate > .ld {
+    font-size: initial;
+  }
+
+
+  #pw1 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 130px;
+    background: #273549;
+    width: 500px;
+    height: 50px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: #55F991;
+
+  }
